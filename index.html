@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Big JavaScript Project </title>
+</head>
+<body>
+
+    <header>
+
+        
+        <h1>Welcome to my big JavaScript project page</h1>
+
+
+         <!-- 2. JavaScript can change HTML attribute value (The light bulb.) -->
+        <button type="button" onclick="document.getElementById('lamp').src = 'https://www.w3schools.com/js/pic_bulbon.gif'">Turn On</button>
+
+        <img id="lamp" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="" width="15px">
+
+        <button type="button" onclick="document.getElementById('lamp').src = 'https://www.w3schools.com/js/pic_bulboff.gif'">Turn Off</button>
+
+        
+    </header>
+
+    <section>
+
+        <p id="first-p">
+        Hi, my name is Askarbek Zholdoshov. I'm starting to learn JavaScript. Yeah, I know it is not easy. That's why creating this project for learning purpose. I'll try to contain every new learning theory here. I think it will be interesting for me. I like these type of learning process. So I like practicing more...
+        </p>
+
+        <!-- 1. What JavaScript can do?  -->
+        <button type="button" onclick="document.getElementById('first-p').innerHTML = 'If you also want to learn JavaScript you can follow me or you can also make big challenges like mine. So do everything for learning. Jump, cry, struggle but learn anyway. And give all energies to learn and practice. Only like this way you can be master of coding... '">Click to continue...</button>
+    </section>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

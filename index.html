@@ -13,27 +13,43 @@
     <header>
 
         
-        <h1>Welcome to my big JavaScript project page</h1>
+        <h1>Big JavaScript project</h1>
 
 
          <!-- 2. JavaScript can change HTML attribute value (The light bulb.) -->
-        <button type="button" onclick="document.getElementById('lamp').src = 'https://www.w3schools.com/js/pic_bulbon.gif'">Turn On</button>
+         <button type="button" onclick="document.getElementById('lamp').src = 'https://www.w3schools.com/js/pic_bulboff.gif'">Turn Off</button>
+       
 
         <img id="lamp" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="" width="15px">
 
-        <button type="button" onclick="document.getElementById('lamp').src = 'https://www.w3schools.com/js/pic_bulboff.gif'">Turn Off</button>
+        <button type="button" onclick="document.getElementById('lamp').src = 'https://www.w3schools.com/js/pic_bulbon.gif'">Turn On</button>
 
-        
+
     </header>
 
     <section>
 
         <p id="first-p">
+            <img src="/img/javascript-logo.png" alt="" align="right" width="30px"  >
         Hi, my name is Askarbek Zholdoshov. I'm starting to learn JavaScript. Yeah, I know it is not easy. That's why creating this project for learning purpose. I'll try to contain every new learning theory here. I think it will be interesting for me. I like these type of learning process. So I like practicing more...
         </p>
 
+        <p id="none-p" style="background-color: grey; color: aliceblue; display: none; margin-bottom: 5px;">
+            By the way I'll write comment inside of my code about theory numbers. You can look at my code also. <a href="https://github.com/pilotaskar/Big-JavaScript-by-Pilotaskar" style="color: blue;">Here is my GitHub link to clone or see my code.</a>
+        </p>
+
+        <p></p>
+
         <!-- 1. What JavaScript can do?  -->
-        <button type="button" onclick="document.getElementById('first-p').innerHTML = 'If you also want to learn JavaScript you can follow me or you can also make big challenges like mine. So do everything for learning. Jump, cry, struggle but learn anyway. And give all energies to learn and practice. Only like this way you can be master of coding... '">Click to continue...</button>
+        <button type="button" onclick="document.getElementById('first-p').innerHTML = 'If you also want to learn JavaScript you can follow me or you can also make big challenges like mine. So do everything for learning. Jump, cry, struggle but learn anyway. And give all energies to learn and practice. Only like this way you can be master of coding... '">Change text</button>
+
+       <!--3. JavaScript can change Style. -->
+        <button type="button" onclick="document.getElementById('first-p').style.backgroundColor = 'white'" >Change backround of text</button>
+
+         <!--4. JavaScript can hide HTML elements. -->
+        <button type="button" onclick="document.getElementById('first-p').style.display = 'none'">Hide text</button>
+
+        <button type="button" onclick="document.getElementById('none-p').style.display = 'block'">Add Text</button>
     </section>
 
 

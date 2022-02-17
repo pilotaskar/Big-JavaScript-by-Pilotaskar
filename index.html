@@ -41,16 +41,24 @@
         <p></p>
 
         <!-- 1. What JavaScript can do?  -->
-        <button type="button" onclick="document.getElementById('first-p').innerHTML = 'If you also want to learn JavaScript you can follow me or you can also make big challenges like mine. So do everything for learning. Jump, cry, struggle but learn anyway. And give all energies to learn and practice. Only like this way you can be master of coding... '">Change text</button>
+        <button id="change-text" type="button" onclick="changeText()">Change text</button>
 
        <!--3. JavaScript can change Style. -->
-        <button type="button" onclick="document.getElementById('first-p').style.backgroundColor = 'white'" >Change backround of text</button>
+        <button id="change-style" type="button" onclick="changeStyle()" >Change style of text</button>
 
          <!--4. JavaScript can hide HTML elements. -->
-        <button type="button" onclick="document.getElementById('first-p').style.display = 'none'">Hide text</button>
+        <button id="hide-text" type="button" onclick="hideText()">Hide text</button>
 
-        <button type="button" onclick="document.getElementById('none-p').style.display = 'block'">Add Text</button>
+        <!-- 5.JavaScript can show elements. -->
+        <button id="add-text" type="button" onclick="addText()">Add Text</button>
     </section>
+
+
+    <footer>
+
+        <!--6. JavaScript Print.   -->
+        <button onclick="window.print()" style="margin-left: 90%;">Print this page</button>
+    </footer>
 
 
     <script src="script.js"></script>

@@ -41,4 +41,4 @@ let total = price1 + price2;
 document.getElementById('price1').innerHTML = '$'+price1 + '(price1 with const)';
 document.getElementById('price2').innerHTML = '$'+price2 + '(price2 with const)';
 
-document.getElementById('total').innerHTML = 'Total:'+'$'+total;
+document.getElementById('total').innerHTML = 'Total:'+'$'+total + '  with 40% discount ';

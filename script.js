@@ -33,3 +33,12 @@ function addText(){
 
 
 }
+
+// 8.When to use Javascript const?
+const price1 = 589;
+const price2 = 678;
+let total = price1 + price2;
+document.getElementById('price1').innerHTML = '$'+price1 + '(price1 with const)';
+document.getElementById('price2').innerHTML = '$'+price2 + '(price2 with const)';
+
+document.getElementById('total').innerHTML = 'Total:'+'$'+total;

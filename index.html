@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="style.css">
 
     <title>Big JavaScript Project </title>
 </head>
+
 <body>
 
     <header>
 
-        
+
         <h1>Big JavaScript project</h1>
 
 
-         <!-- 2. JavaScript can change HTML attribute value (The light bulb.) -->
-         <button type="button" onclick="document.getElementById('lamp').src = 'https://www.w3schools.com/js/pic_bulboff.gif'">Turn Off</button>
-       
+        <!-- 2. JavaScript can change HTML attribute value (The light bulb.) -->
+        <button type="button" 
+            onclick="document.getElementById('lamp').src = 'https://www.w3schools.com/js/pic_bulboff.gif'">Turn
+            Off</button>
+
 
         <img id="lamp" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="" width="15px">
 
-        <button type="button" onclick="document.getElementById('lamp').src = 'https://www.w3schools.com/js/pic_bulbon.gif'">Turn On</button>
+        <button type="button"
+            onclick="document.getElementById('lamp').src = 'https://www.w3schools.com/js/pic_bulbon.gif'">Turn
+            On</button>
 
 
     </header>
@@ -30,12 +42,16 @@
     <section>
 
         <p id="first-p">
-            <img src="/img/javascript-logo.png" alt="" align="right" width="30px"  >
-        Hi, my name is Askarbek Zholdoshov. I'm starting to learn JavaScript. Yeah, I know it is not easy. That's why creating this project for learning purpose. I'll try to contain every new learning theory here. I think it will be interesting for me. I like these type of learning process. So I like practicing more...
+            <img src="/img/javascript-logo.png" alt="" align="right" width="30px">
+            Hi, my name is Askarbek Zholdoshov. I'm starting to learn JavaScript. Yeah, I know it is not easy. That's
+            why creating this project for learning purpose. I'll try to contain every new learning theory here. I think
+            it will be interesting for me. I like these type of learning process. So I like practicing more...
         </p>
 
         <p id="none-p" style="background-color: grey; color: aliceblue; display: none; margin-bottom: 5px;">
-            By the way I'll write comment inside of my code about theory numbers. You can look at my code also. <a href="https://github.com/pilotaskar/Big-JavaScript-by-Pilotaskar" style="color: blue;">Here is my GitHub link to clone or see my code.</a>
+            By the way I'll write comment inside of my code about theory numbers. You can look at my code also. <a
+                href="https://github.com/pilotaskar/Big-JavaScript-by-Pilotaskar" style="color: blue;">Here is my GitHub
+                link to clone or see my code.</a>
         </p>
 
         <p></p>
@@ -43,15 +59,37 @@
         <!-- 1. What JavaScript can do?  -->
         <button id="change-text" type="button" onclick="changeText()">Change text</button>
 
-       <!--3. JavaScript can change Style. -->
-        <button id="change-style" type="button" onclick="changeStyle()" >Change style of text</button>
+        <!--3. JavaScript can change Style. -->
+        <button id="change-style" type="button" onclick="changeStyle()">Change style of text</button>
 
-         <!--4. JavaScript can hide HTML elements. -->
+        <!--4. JavaScript can hide HTML elements. -->
         <button id="hide-text" type="button" onclick="hideText()">Hide text</button>
 
         <!-- 5.JavaScript can show elements. -->
         <button id="add-text" type="button" onclick="addText()">Add Text</button>
     </section>
+
+   <!-- 8. When to use Javascript const? -->
+    <section id="price">
+
+        <div>
+            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-green-select-2019?wid=834&hei=1000&fmt=jpeg&qlt=95&.v=1566956144838" alt="" width="200px">
+            <p id="price1"></p>
+        </div>
+
+        <div>
+            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone11-green-select-2019?wid=834&hei=1000&fmt=jpeg&qlt=95&.v=1566956144838" alt="" width="200px">
+            <p id="price2"></p>
+        </div>
+
+    </section>
+
+    <!-- 8. When to use Javascript const? -->
+
+    <h1 id="total"></h1>
+    <p>I did prices with JavaScript. You can see my code. </p>
+
+
 
 
     <footer>
@@ -62,6 +100,7 @@
 
 
     <script src="script.js"></script>
-    
+
 </body>
+
 </html>

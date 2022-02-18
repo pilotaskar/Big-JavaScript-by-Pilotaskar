@@ -24,7 +24,7 @@ section {
 
 button {
     color: white;
-    background-color: #4289FC;
+    background-color: #3B3E42;
     border-radius: 5px;
     padding: 5px;
     font-weight: bold;
@@ -32,4 +32,18 @@ button {
 
 button:hover {
     color: black;
+    
+}
+
+#price {
+    border: 1px solid #E7E7E7;
+    display: flex;
+    
+    padding: 0; margin: 0;
+}
+
+#price div{
+   
+    width: 200px;
+    
 }
